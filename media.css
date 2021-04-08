@@ -45,7 +45,7 @@
     .wrapper {
         display: flex;
         justify-content: flex-end;
-        background: url(/image/image-manual.png);
+        background: url(image/image-manual.png);
         background-color: rgba(244, 196, 252, 1);
         background-position: left;
         background-size: 53%;
@@ -56,7 +56,7 @@
         justify-content: flex-start;
     }
     .slide-one {
-        background: url(/image/Dsmile.png);
+        background: url(image/Dsmile.png);
         background-size: contain;
         background-repeat: no-repeat;
         background-position: top right;

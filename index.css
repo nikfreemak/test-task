@@ -44,7 +44,7 @@ body {
 }
 
 .prev {
-    background: url(/image/prev.png), rgba(0, 0, 0, 0.2);
+    background: url(image/prev.png), rgba(0, 0, 0, 0.2);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 6px 13px;
@@ -56,7 +56,7 @@ body {
 }
 
 .next {
-    background: url(/image/next.png), rgba(0, 0, 0, 0.2);
+    background: url(image/next.png), rgba(0, 0, 0, 0.2);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 6px 13px;
@@ -88,17 +88,17 @@ body {
 }
 
 .dots-img-smile {
-    background: url(/image/logo-dots-smile.png);
+    background: url(image/logo-dots-smile.png);
     background-size: contain;
 }
 
 .dots-img-teeth {
-    background: url(/image/logo-dots-teeth.png);
+    background: url(image/logo-dots-teeth.png);
     background-size: contain;
 }
 
 .dots-img-jaws {
-    background: url(/image/logo-dots-jaws.png);
+    background: url(image/logo-dots-jaws.png);
     background-size: contain;
 }
 
@@ -146,7 +146,7 @@ body {
 }
 
 .slide-one {
-    background: linear-gradient(90deg, #EFEFEF 1%, rgba(255, 255, 255, 0) 100%), url(/image/slide1.png);
+    background: linear-gradient(90deg, #EFEFEF 1%, rgba(255, 255, 255, 0) 100%), url(image/slide1.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: auto;
@@ -240,7 +240,7 @@ body {
 }
 
 .img-star {
-    background: url(/image/star.svg);
+    background: url(image/star.svg);
     width: 19.48px;
     height: 18.58px;
 }
@@ -272,7 +272,7 @@ body {
 }
 
 .img-box {
-    background: url(/image/box.png);
+    background: url(image/box.png);
     background-size: contain;
     width: 21.94px;
     height: 23.41px;
@@ -389,7 +389,7 @@ body {
     border-top: 1px solid rgba(196, 196, 196, 1);
     border-bottom: 1px solid rgba(196, 196, 196, 1);
     border-right: none;
-    background: url(/image/minus.svg);
+    background: url(image/minus.svg);
     background-repeat: no-repeat;
     background-size: 9px 1px;
     background-position: center;
@@ -404,7 +404,7 @@ body {
     border-top: 1px solid rgba(196, 196, 196, 1);
     border-bottom: 1px solid rgba(196, 196, 196, 1);
     border-right: 1px solid rgba(196, 196, 196, 1);
-    background: url(/image/plus.svg);
+    background: url(image/plus.svg);
     background-repeat: no-repeat;
     background-size: 9px;
     background-position: center;
@@ -417,7 +417,7 @@ body {
 }
 
 .clock-img {
-    background: url(/image/clock.png);
+    background: url(image/clock.png);
     width: 16px;
     height: 16px;
     background-size: contain;
@@ -473,7 +473,7 @@ body {
 }
 
 .duopoint {
-    background: url(/image/duopoint.png);
+    background: url(image/duopoint.png);
     width: 6px;
     height: 16px;
     background-size: contain;
@@ -534,7 +534,6 @@ body {
 
 .old-price-buy {
     position: relative;
-    /* margin-top: 10px; */
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
