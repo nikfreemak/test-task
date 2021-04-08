@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>BrightSmile Veneers</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='index.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href="media.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src='main.js'></script>
+</head>
+
+<body>
+    <section class="section-main">
+        <div class="section-header">
+            <div class="section-header-name">
+                <h1 class="main-title">BRIGTSMILE VENEERS</h1>
+            </div>
+        </div>
+        <section class="section-wrap">
+            <div class="block-half">
+                <div class="section-slider">
+                    <div class="slider">
+
+                        <div class="item slide">
+                            <div class="slide-one">
+                                <div class="slide-one__block">
+                                    <p class="slide-text">БЫСТРАЯ УСТАНОВКА</p>
+                                </div>
+                                <div class="slide-one__block ">
+                                    <p class="slide-text">СИЛЬНАЯ ФИКСАЦИЯ</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item item-none">
+                            <div class="wrap-slide-two">
+                                <img src="/image/slide2.png" alt="">
+                                <div class="wrap-text-slide">
+                                    <p class="slide-text">до</p>
+                                    <p class="slide-text">после</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item item-none">
+                            <img class="slide3" src="/image/slide3.png" alt="">
+                        </div>
+
+                    </div>
+
+                    <div class="slider-control">
+                        <a class="prev" onclick="minusSlide()"></a>
+                        <div class="slider-dots">
+                            <span class="slider-dots_item dots-img-smile" onclick="currentSlide(1)"></span>
+                            <span class="slider-dots_item dots-img-teeth" onclick="currentSlide(2)"></span>
+                            <span class="slider-dots_item dots-img-jaws" onclick="currentSlide(3)"></span>
+                        </div>
+                        <a class="next" onclick="plusSlide()"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="block-half">
+                <div class="product-info">
+                    <h1 class="product-info_title">brightsmile veneers</h1>
+                    <h2 class="product-info_subtitle">Вы будете улыбаться ярко!</h2>
+                    <p class="product-info_text">
+                        Удобные и практичные виниры по отличной цене! Оформите заказ прямо сейчас и оплатите товар при получении.
+                    </p>
+                    <div class="wrap-star">
+                        <div class="img-star"></div>
+                        <div class="img-star wrap-text"></div>
+
+                        <span class="wrap-text line-up">2,7</span>
+                        <span class="wrap-text line-up">170 отзывов</span>
+                        <span class="wrap-text">302 закакз(ов)</span>
+                    </div>
+                    <div class="wrap-box">
+                        <div class="img-box"></div>
+                        <p class="wrap-box_text">Бесплатная доставка</p>
+                    </div>
+                    <!-- <hr class="line"> -->
+                    <div class="wrap-price mobile">
+                        <span class="price">49,00 €</span>
+                        <div class="old-price"> <span class="old-price-kol">52 €</span>
+                            <div class="red-line"></div>
+                        </div>
+                        <div class="sale">-5%</div>
+                    </div>
+                    <div class="wrap-price desktop">
+                        <div class="wrap-desktop">
+                            <span class="price">49,00 €</span>
+                            <div class="old-price"> <span class="old-price-kol">52 €</span>
+                                <div class="red-line"></div>
+                            </div>
+                        </div>
+                        <div class="sale">-5%</div>
+                        <div class="wrap-timer desktop">
+                            <div class="wrap-clock">
+                                <div class="clock-img"></div>
+                                <span class="timer-text">Скидка заканчивается через:</span>
+                            </div>
+                            <div class="timer">
+                                <div class="timer-block">
+                                    <span class="timer-value">00</span>
+                                    <span class="timer-value-text">часы</span>
+                                </div>
+                                <div class="duopoint"></div>
+                                <div class="timer-block">
+                                    <span class="timer-value">55</span>
+                                    <span class="timer-value-text">минуты</span>
+                                </div>
+                                <div class="duopoint"></div>
+                                <div class="timer-block">
+                                    <span class="timer-value">11</span>
+                                    <span class="timer-value-text">секунды</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="wrap-counter-timer">
+                        <div class="wrap-counter">
+                            <span class="counter-text">Количество:</span>
+                            <div class="counter">
+                                <div class="left-button"> <button class="counter-left-button"></button> </div>
+                                <div class="counter-value"><span class="">1</span> </div>
+                                <div class="right-button"> <button class="counter-right-button"></button> </div>
+                            </div>
+                        </div>
+
+                        <div class="wrap-timer mobile">
+                            <div class="wrap-clock">
+                                <div class="clock-img"></div>
+                                <span class="timer-text">Скидка заканчивается через:</span>
+                            </div>
+                            <div class="timer">
+                                <div class="timer-block">
+                                    <span class="timer-value">00</span>
+                                    <span class="timer-value-text">часы</span>
+                                </div>
+                                <div class="duopoint"></div>
+                                <div class="timer-block">
+                                    <span class="timer-value">55</span>
+                                    <span class="timer-value-text">минуты</span>
+                                </div>
+                                <div class="duopoint"></div>
+                                <div class="timer-block">
+                                    <span class="timer-value">11</span>
+                                    <span class="timer-value-text">секунды</span>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <button class="button-buy">
+                    <div class="wrap-button-buy">
+                        <span class="buy-now">купить сейчас</span>
+                        <span class="buy-price">49,00 €</span>
+                        <div class="old-price-buy"> <span class="old-price-buy">52 €</span>
+                            <div class="black-line"></div>
+                        </div>
+                    </div>
+                </button>
+            </div>
+        </section>
+        <section class="section-wrap-bot">
+
+            <div>
+                <h3 class="section-manual-title">ИНСТРУКЦИЯ ПО УСТАНОВКЕ <span>BRIGHTSMILE</span></h3>
+            </div>
+
+            <div> <img class="image" src="/image/instrmob2.png" alt=""></div>
+
+
+            <div class="wrapper">
+                <div class="wrap-section-manual">
+                    <div class="section-instuction-block">
+                        <img class="param-logo" src="/image/mlogo1.png" alt="виниры в стакане">
+                        <div class="block-wrap">
+                            <span class="block-number">1</span>
+                            <p class="block-text">
+                                Поместите виниры в емкость с теплой водой
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="section-instuction-block">
+                        <img class="param-logo" src="/image/mlogo2.png" alt="виниры в стакане">
+                        <div class="block-wrap">
+                            <span class="block-number">2</span>
+                            <p class="block-text">
+                                Через 10 минут достаньте их и обсушите салфеткой
+                            </p>
+                        </div>
+                    </div>
+
+
+
+                    <div class="section-instuction-block">
+                        <img class="param-logo" src="/image/mlogo3.png" alt="виниры в стакане">
+                        <div class="block-wrap">
+                            <span class="block-number">3</span>
+                            <p class="block-text">
+                                Установите виниры на зубы, плотно придавливая руками
+                            </p>
+                        </div>
+                    </div>
+
+
+
+                    <div class="section-instuction-block last-block">
+                        <img class="param-logo" src="/image/mlogo4.png" alt="виниры в стакане">
+                        <div class="block-wrap">
+                            <span class="block-number">4</span>
+                            <p class="block-text">
+                                Очищайте виниры 2 раза в день обычной зубной пастой
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </section>
+    </section>
+
+</body>
+
+</html>
