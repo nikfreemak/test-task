@@ -48,7 +48,7 @@
         background: url(image/image-manual.png);
         background-color: rgba(244, 196, 252, 1);
         background-position: left;
-        background-size: 53%;
+        background-size: contain;
         background-repeat: no-repeat;
     }
     .wrap-counter_timer {
