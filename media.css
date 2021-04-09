@@ -2,7 +2,7 @@
     .section-header {
         width: 100%;
         background-color: rgba(241, 221, 244, 1);
-        padding-top: 24px;
+        /* padding-top: 24px; */
     }
     .section-wrap {
         max-width: 1340px;
